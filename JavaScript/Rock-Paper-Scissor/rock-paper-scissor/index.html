@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper and Scissors</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container1">
+        <h2>Rock Paper and Scissors</h2>
+        <div id="flex-box-rps-div" class="flex-box-rps">
+            <img id="rock" src="./images//rock.png" height="200px" width="200px" onclick="rpsGame(this)" alt="rock">
+            <img id="paper" src="./images//paper.png" height="200px" width="200px" onclick="rpsGame(this)" alt="paper">
+            <img id="scissor" src="./images//scissor.png" height="200px" width="200px" onclick="rpsGame(this)" alt="scissor">
+        </div>
+    </div>
+
+
+    <!-- additional challenge of changing the color of button -->
+    <div class="container1">
+        <h2>Change the button colors</h2>
+        <div class="flex-box-rps">
+            <form action="">
+                <select name="backdrop" id="background" onchange="buttonColorChange(this)">
+                    <option value="random">Random</option>
+                    <option value="red">Red</option>
+                    <option value="yellow">Yellow</option>
+                    <option value="blue">blue</option>
+                    <option value="green">green</option>
+                    <option value="reset">Reset</option>
+                </select> 
+            </form>
+
+            <button class="btn btn-primary">Blue</button>
+            <button class="btn btn-danger">Red</button>
+            <button class="btn btn-success">Green</button>
+            <button class="btn btn-warning">Yellow</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
