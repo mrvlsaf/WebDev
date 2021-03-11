@@ -1,0 +1,19 @@
+.container{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.flex-box-container{
+    display: flex;
+    /* border: 2px solid red; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex-box-container img{
+    /* border: 2px solid yellow; */
+    margin: 10px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7);
+}
