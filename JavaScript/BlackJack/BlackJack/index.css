@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container1{
+    border: 2px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.row-1, .row-2, .row-3{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    justify-content: space-around;
+}
+.row-1, .row-2{
+    background: url('https://media.istockphoto.com/photos/poker-table-picture-id1046326882?k=6&m=1046326882&s=612x612&w=0&h=FWwERAhFegLxTvxXw2uEyDg1ua1DiV-bXImf9ENaXDg=') center;
+    color: #ffffff;
+}
+.row-1 div{
+    height: 350px;
+    border: 1px solid black;
+    padding: 10px;
+    flex: 1;
+    text-align: center; 
+}
+.row-1 img{
+    width: 25%;
+    padding: 10px;
+}
+.row-2 button{
+    border: 1px solid black;
+    padding: 10px;
+}
+.row-2 div{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+table, th, td {
+    padding: 5px;
+    border: 1px solid black;
+}
